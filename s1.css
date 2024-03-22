@@ -1,0 +1,127 @@
+*{
+    padding:0;
+    margin:0;
+    --b1 : 30px;
+    --w1 :60px;
+    --p1:10px;
+}
+
+body{
+    background-image: url("nicole-mason-cv_fqvrbKWs-unsplash.jpg");
+    background-size: cover;
+}
+
+#navbar{
+    display:flex;
+    height: 5em;
+    border-radius: 4px;
+    background-color: #33363D;
+    flex-direction: row;
+    justify-content:space-around;
+    background: linear-gradient(#1F1F1F , #060202, #222021, #3B3B3B);
+}
+
+.ele{
+    align-self: center;
+    color:#ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;    
+    /* transition:0.5s; */
+}
+
+.ele:hover{
+    transition:0.3s;
+    border:1px solid black;
+    font-size: 30px;
+    box-shadow: 0 0 5px 5px #ffffff; 
+    border-radius: 6px;
+    /* box-shadow: 0 0 5px 5px #020002;  */
+    color:#ffffff;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+    transition-duration: 0.3s;
+}
+
+
+
+input{
+    height:var(--b1);
+    padding:var(--p1);
+    align-self: center;
+}
+
+button{
+    height:var(--b1);
+    width:var(--w1);
+    align-self: center;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color: #33363D;
+    color:#ffffff;
+}
+
+#e5{
+    align-self: center;
+    align-items: center;
+    padding:var(--p1);
+}
+
+/* navbar ends ,  main starts */
+
+#art{
+    display:flex;
+    width:1500px;
+    height:900px;
+    justify-content: space-around;
+}
+
+.artic{
+    height: 800px;
+    width: 350px;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.3);
+    align-self:center;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+.are{
+    height:200px;
+    width:200px;
+    align-self: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: var(--p1);
+    display: flex;
+    align-items: center;
+}
+
+p{
+    margin-left: 80px;
+}
+
+
+.are:hover{
+    transition: 0.4s;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#a1,#a3,#a5{
+    align-self: flex-start;
+}
+#a2,#a4,#a6{
+    align-self:flex-end;
+}
+
+/* basic main body ends, footer begins */
+
+i{
+    color: #ffffff;
+}
